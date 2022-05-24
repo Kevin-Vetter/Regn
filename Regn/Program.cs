@@ -11,7 +11,7 @@ Console.Clear();
 bool activeLoop = false;
 do
 {
-    Console.WriteLine("Vælge et af følgende: \n1. Gennemsnitlig nedbør\n2. Maximalt nedbør\n3. Minimalt nedbør\n4. Brugerdefineret intastning\n5. Luk program");
+    Console.WriteLine("Vælge et af følgende: \n1. Gennemsnitlig nedbør\n2. Maximalt nedbør\n3. Minimalt nedbør\n4. Brugerdefineret indtastning\n5. Luk program");
     string? menuInput = Console.ReadLine();
     switch (menuInput)
     {
@@ -45,5 +45,5 @@ do
     }
 }
 while (activeLoop);
-Console.WriteLine("Tryk på en knap for at lukke programmet.");
+Console.WriteLine("\nTryk på en knap for at lukke programmet.");
 Console.ReadKey();
