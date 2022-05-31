@@ -15,4 +15,4 @@
 * [x] Udlæser minimum-værdien
 
 ## Known Issues
-* Projectet kan være svært at finde rundt i da det er skrævt af en amatør
+* Projectet kan være svært at finde rundt i, da det er skrævt af en amatør
